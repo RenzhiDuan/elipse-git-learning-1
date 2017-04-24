@@ -12,6 +12,11 @@ int add(int a, int b){
 	return a+b;
 }
 
+//this function is added in v0.1
+bool lt(int a, int b){
+	return a>b;
+}
+
 int main(){
 	printf("Eclipse Git Learning 1");
 
