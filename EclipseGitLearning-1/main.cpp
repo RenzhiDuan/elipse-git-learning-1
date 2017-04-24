@@ -7,14 +7,18 @@
 
 #include <cstdio>
 
-//this function is added in v0.1
-int add(int a, int b){
-	return a+b;
-}
+////this function is added in v0.1
+//int add(int a, int b){
+//	return a+b;
+//}
 
 //this function is added in v0.1
 bool lt(int a, int b){
 	return a>b;
+}
+
+bool st(int a, int b){
+	return a<b;
 }
 
 int main(){
@@ -22,7 +26,7 @@ int main(){
 
 	int a,b;
 	scanf("%d %d", &a, &b);
-	printf("Sum: %d\n", add(a,b));
+//	printf("Sum: %d\n", add(a,b));
 
 }
 
